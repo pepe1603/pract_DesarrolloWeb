@@ -1,0 +1,106 @@
+
+.flex-container{
+    height: 90%;
+    width: 50%;
+    margin: 2em auto;
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 1fr;
+    
+}
+.contenedor-form{
+    font-weight: bold;
+    line-height: 2;
+    min-width: 440px;
+   /* border: thin solid lightcoral;*/
+    margin: 2em auto;
+    padding: 1em;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;    
+    box-shadow: 1px 2px 2px 2px lightcoral;
+    border-radius: 15px;
+}
+#nom{
+    width: 280px;
+    height: 30px;
+    
+    border-radius: 10px;
+    
+    
+}
+#apep{
+    border-radius: 10px;
+    
+    width: 280px;
+    height: 30px;
+}
+#apem{
+    border-radius: 10px;
+    
+    width: 280px;
+    height: 30px;
+    
+}
+#fechaN{
+    border-radius: 5px;    
+    width: 150px;
+    height: 25px;
+    
+}
+#btn-generar{
+    width: 160px;
+    border-radius: 10px;
+    padding: .3em .8em;
+    background: lightcoral;
+}
+#res{
+    text-align: center;
+    border-radius: .5em;
+    width: 300px;
+    height: 35px;
+}
+/*xxxxxxxxxxxx = Consumir Apifree de Jsonplacerholder.com = xxxxxxxxxxxxxxxx*/
+
+.formpanel{
+    min-width: 440px;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 auto;
+    padding: 1.2em;
+    border-radius: 15px;
+    box-shadow: 1px 2px 2px 2px lightsalmon;
+
+}
+.formpanel article #id_user{
+    width: 7em;
+    margin-right: 2em;
+    
+}
+
+.formpanel input{
+    border-radius: .5em;
+    width: 310px;
+    height: 32px;
+
+}
+
+#btn-consultar{
+    width: 130px;
+    border-radius: 10px;
+    padding: .3em .8em;
+    background: lightsalmon;
+}
+
+h3{
+    margin-bottom: 1.5em;
+}
+.button:hover {
+    text-decoration: dashed;
+    transition: 0.7s;
+}
